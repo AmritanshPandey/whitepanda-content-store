@@ -9,10 +9,10 @@ import List from '@material-ui/core/List';
 import Typography from '@material-ui/core/Typography';
 import IconButton from '@material-ui/core/IconButton';
 import Badge from '@material-ui/core/Badge';
-import MenuIcon from '@material-ui/icons/Menu';
 import NotificationsIcon from '@material-ui/icons/Notifications';
 import { mainListItems } from './ListItems';
 import Avatar from '@material-ui/core/Avatar';
+
 
 
 
@@ -24,12 +24,14 @@ const useStyles = makeStyles(theme => ({
     color: '#fff',
     backgroundColor: '#b3e880',
   },
+  largeIcon: {
+    width: 60,
+    height: 60,
+  },
   root: {
     display: 'flex',
   },
-  toolbar: {
-    paddingRight: 24, // keep right padding when drawer closed
-  },
+  
   toolbarIcon: {
     display: 'flex',
     alignItems: 'center',
@@ -99,12 +101,10 @@ const useStyles = makeStyles(theme => ({
 
 function ContentStore() {
   const classes = useStyles();
-  const [open, setOpen] = React.useState(true);
-  const handleDrawerOpen = () => {
-    setOpen(true);
-  };
+  const [open ] = React.useState(true);
+
   
-  
+
 
   return (
     <div className={classes.root}>
@@ -114,14 +114,11 @@ function ContentStore() {
           <IconButton
             edge="start"
             color="inherit"
-            aria-label="open drawer"
-            onClick={handleDrawerOpen}
-            className={clsx( classes.menuButtonHidden)}
+            iconStyle={classes.largeIcon}
           >
-            <MenuIcon />
           </IconButton>
           <Typography component="h1" variant="h6" color="inherit" noWrap className={classes.title}>
-            <img src="" alt="logo" />
+            <img src="https://i.ibb.co/Yc5RpxY/full-logo-white.png" alt="logo" className="logo" />
           </Typography>
           <IconButton color="inherit">
             <Badge badgeContent={9} color="secondary">

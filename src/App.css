@@ -6,3 +6,74 @@
   color: rgb(0, 0, 0) !important;
   background-color: #ffffff !important;
 }
+
+.MuiListItemIcon-root {
+  color: rgba(0, 0, 0, 0.54);
+  display: inline-flex;
+  min-width: 0px !important;
+  width: 0px !important;
+  flex-shrink: 0;
+}
+
+
+.MuiDrawer-paperAnchorDockedLeft {
+  border-right: 1px solid rgba(0, 0, 0, 0.12);
+  width: 70px !important;
+}
+
+
+.MuiList-padding {
+  padding-top: 60px !important;
+  padding-bottom: 8px;
+}
+
+.makeStyles-appBar-4 {
+  z-index: 1190 !important;
+}
+
+ .MuiToolbar-gutters {
+    padding-left: 85px !important;
+    padding-right: 20px !important;
+}
+
+
+.MuiAvatar-root {
+  width: 35px !important;
+  height: 35px !important;
+  font-size: 1rem !important;
+}
+
+.MuiListItem-button .Mui-selected {
+  color: #3ebbb3;
+  padding-top: 6px;
+}
+
+
+.MuiBadge-colorSecondary {
+  color: #fff;
+  background-color: #ef5d68 !important;
+}
+
+.makeStyles-appBar-5 {
+  z-index: 1190 !important;
+}
+
+.logo{
+  margin-top: 10px;
+  margin-left: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+  .logo{
+    margin-top: 10px;
+    margin-left: 5px;
+    width: 80%;
+    height: auto;
+  }
+}
+
+
+.big-icon{
+  font-size: 2rem !important;
+  margin-bottom: 12px !important;
+}

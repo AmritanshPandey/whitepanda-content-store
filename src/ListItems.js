@@ -1,31 +1,27 @@
 import React from 'react';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
-import ListItemText from '@material-ui/core/ListItemText';
 import DashboardIcon from '@material-ui/icons/Dashboard';
 import SearchIcon from '@material-ui/icons/Search';
 import StorefrontIcon from '@material-ui/icons/Storefront';
 
-
+  
 export const mainListItems = (
   <div>
     <ListItem button>
       <ListItemIcon>
-        <DashboardIcon />
+        <DashboardIcon  className="Mui-selected big-icon"/>
       </ListItemIcon>
-      <ListItemText primary="Home" />
     </ListItem>
     <ListItem button>
       <ListItemIcon>
-        <SearchIcon />
+        <SearchIcon className="big-icon" />
       </ListItemIcon>
-      <ListItemText primary="Search" />
     </ListItem>
     <ListItem button>
       <ListItemIcon>
-        <StorefrontIcon />
+        <StorefrontIcon className="big-icon" />
       </ListItemIcon>
-      <ListItemText primary="Store" />
     </ListItem>
     
   </div>
