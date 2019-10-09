@@ -11,16 +11,16 @@ import Container from '@material-ui/core/Container';
 import Link from '@material-ui/core/Link';
 import Avatar from '@material-ui/core/Avatar';
 import CardHeader from '@material-ui/core/CardHeader';
+import SocialMedia from './SocialMedia';
 
 function Copyright() {
   return (
     <Typography variant="body2" color="textSecondary" align="center">
-      {'Copyright © '}
-      <Link color="inherit" href="http://www.whitepanda.in/">
-        White Panda
-      </Link>{' '}
-      {new Date().getFullYear()}
-      {'.'}
+      {'Copyright © '}{new Date().getFullYear()}
+      {'. '}
+        White Panda Media Pvt. Ltd. <br />
+      {' '} All rights reserved <br /><br />
+      
     </Typography>
   );
 }
@@ -72,7 +72,7 @@ function Body() {
         {/* Hero unit */}
         <div className={classes.heroContent}>
           <Container maxWidth="sm">
-            <Typography component="h1" variant="h2" align="left" color="textPrimary" gutterBottom>
+            <Typography component="h1" variant="h3" align="left" color="textPrimary" gutterBottom>
               Content Store
             </Typography>
             <Typography variant="h4" align="left" paragraph className="TextTeal">
@@ -127,6 +127,7 @@ function Body() {
       </main>
       {/* Footer */}
       <footer className={classes.footer}>
+        <SocialMedia />
         <Copyright />
         <Typography variant="subtitle1" align="center" color="textSecondary" component="p">
          <Link>Privacy Policy</Link>   |  <Link>Terms of Service</Link> |  <Link>Service Agreement</Link>  | <Link>Contact us</Link>
