@@ -8,7 +8,7 @@ import StorefrontIcon from '@material-ui/icons/Storefront';
   
 export const mainListItems = (
   <div>
-    <ListItem button>
+    <ListItem button className="Mui-selected-border">
       <ListItemIcon>
         <DashboardIcon  className="Mui-selected big-icon"/>
       </ListItemIcon>

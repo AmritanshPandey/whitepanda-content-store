@@ -12,6 +12,7 @@ import Badge from '@material-ui/core/Badge';
 import NotificationsIcon from '@material-ui/icons/Notifications';
 import { mainListItems } from './ListItems';
 import Avatar from '@material-ui/core/Avatar';
+import Body from './Body';
 
 
 
@@ -63,15 +64,7 @@ const useStyles = makeStyles(theme => ({
   title: {
     flexGrow: 1,
   },
-  // drawerPaper: {
-  //   position: 'relative',
-  //   whiteSpace: 'nowrap',
-  //   width: drawerWidth,
-  //   transition: theme.transitions.create('width', {
-  //     easing: theme.transitions.easing.sharp,
-  //     duration: theme.transitions.duration.enteringScreen,
-  //   }),
-  // },
+  
   drawerPaperClose: {
     overflowX: 'hidden',
     transition: theme.transitions.create('width', {
@@ -141,7 +134,7 @@ function ContentStore() {
       </Drawer>
       <main className={classes.content}>
         <div className={classes.appBarSpacer} />
-        
+        <Body />
         
       </main>
     </div>

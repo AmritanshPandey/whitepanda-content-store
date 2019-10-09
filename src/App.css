@@ -23,7 +23,7 @@
 
 
 .MuiList-padding {
-  padding-top: 60px !important;
+  padding-top: 90px !important;
   padding-bottom: 8px;
 }
 
@@ -43,9 +43,14 @@
   font-size: 1rem !important;
 }
 
-.MuiListItem-button .Mui-selected {
-  color: #3ebbb3;
-  padding-top: 6px;
+ .Mui-selected-border {
+  border: #3ebbb3 !important;
+  border-style: solid !important;
+  border-width: 0 3px 0 0 !important;
+}
+
+.Mui-selected{
+  color: #3ebbb3 !important;
 }
 
 
@@ -77,4 +82,39 @@
 }
 .big-icon{
   font-size: 2rem !important;
+}
+
+
+.MuiContainer-maxWidthSm {
+  max-width: 80% !important; 
+  margin: 5% auto !important;
+  left: 90;
+}
+
+.MuiTypography-colorTextSecondary{
+
+}
+
+.MuiTypography-colorTextPrimary{
+
+}
+
+.MuiCardHeader-root {
+  display: flex;
+  padding: 0 !important;
+  align-items: left !important;
+}
+
+
+.MuiAvatar-root {
+  width: 60px !important; 
+  height: 60px !important;
+  font-size: 1rem !important;
+}
+
+.makeStyles-bigAvatar-153 {
+  width: 60px;
+  height: 60px;
+  margin: 10px 15px 20px 0 !important;
+
 }
