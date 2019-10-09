@@ -75,10 +75,10 @@ function Body() {
             <Typography component="h1" variant="h2" align="left" color="textPrimary" gutterBottom>
               Content Store
             </Typography>
-            <Typography variant="h5" align="left" color="textSecondary" paragraph>
+            <Typography variant="h4" align="left" paragraph className="TextTeal">
               Got bulk orders or almost similar orders? Fill the order brief in an excel sheet
             </Typography>
-            <Typography variant="p" align="left" paragraph>
+            <Typography variant="h6" align="left" paragraph>
               If you're wondering about an easy way to place orders large numbers, we provide a way customized just for that.
               Download our excel sheet, and fill the order brief in the prescribed format and submit. In case you need any help, <Link href="">we
               are just a click away to assist you in placing your order.</Link>
@@ -129,7 +129,7 @@ function Body() {
       <footer className={classes.footer}>
         <Copyright />
         <Typography variant="subtitle1" align="center" color="textSecondary" component="p">
-          Privacy Policy  |  Terms of Service  |  Service Agreement  | Contact us
+         <Link>Privacy Policy</Link>   |  <Link>Terms of Service</Link> |  <Link>Service Agreement</Link>  | <Link>Contact us</Link>
         </Typography>
 
       </footer>

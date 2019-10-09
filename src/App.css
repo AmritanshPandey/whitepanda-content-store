@@ -118,3 +118,40 @@
   margin: 10px 15px 20px 0 !important;
 
 }
+
+
+.MuiContainer-maxWidthMd {
+    max-width: 80% !important;
+}
+
+.MuiButton-outlinedSizeSmall {
+  padding: 6px 40px !important;
+  font-size: 0.8125rem;
+}
+
+.MuiButton-outlinedPrimary:hover {
+  border: 1px solid #3ebbb3 !important;
+  background-color: rgba(15, 158, 194, 0.08);
+}
+
+.MuiButton-outlinedPrimary {
+  color: #3ebbb3 !important;
+  border: 1px solid #3ebbb3 !important;
+}
+
+.MuiCardActions-root {
+  padding: 16px !important;
+}
+
+
+.TextTeal {
+  color: #3ebbb3 !important;
+}
+
+.MuiLink-underlineHover {
+  text-decoration: underline !important;
+}
+
+.MuiTypography-colorPrimary {
+  color: #5f5f5f !important;
+}
