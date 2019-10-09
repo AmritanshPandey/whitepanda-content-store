@@ -80,8 +80,8 @@ function Body() {
             </Typography>
             <Typography variant="p" align="left" paragraph>
               If you're wondering about an easy way to place orders large numbers, we provide a way customized just for that.
-              Download our excel sheet, and fill the order brief
-
+              Download our excel sheet, and fill the order brief in the prescribed format and submit. In case you need any help, <Link href="">we
+              are just a click away to assist you in placing your order.</Link>
             </Typography>
             <div className={classes.heroButtons}>
               <Grid container spacing={2} justify="left">
@@ -107,16 +107,16 @@ function Body() {
                         <Avatar alt="Remy Sharp" src="https://i.ibb.co/PjnCNb2/placeholder.jpg" className={classes.bigAvatar} />
                       }
 
-                      title="Shrimp and Chorizo Paella"
-                      subheader="September 14, 2016"
+                      title="Blog / Article"
+                      subheader="from ₹500"
                     />
                     <Typography>
-                      This is a media card. You can use this section to describe the content.
+                      Typically 400-450 words, ae ebook is perfect for your target audience ranging from prospective customers to users.
                     </Typography>
                   </CardContent>
                   <CardActions>
                     <Button size="small" variant="outlined" color="primary">
-                      View
+                      Order
                     </Button>
                   </CardActions>
                 </Card>
@@ -127,13 +127,11 @@ function Body() {
       </main>
       {/* Footer */}
       <footer className={classes.footer}>
-        <Typography variant="h6" align="center" gutterBottom>
-          Footer
-        </Typography>
-        <Typography variant="subtitle1" align="center" color="textSecondary" component="p">
-          Something here to give the footer a purpose!
-        </Typography>
         <Copyright />
+        <Typography variant="subtitle1" align="center" color="textSecondary" component="p">
+          Privacy Policy  |  Terms of Service  |  Service Agreement  | Contact us
+        </Typography>
+
       </footer>
       {/* End footer */}
     </React.Fragment>
