@@ -15,7 +15,7 @@ import SocialMedia from './SocialMedia';
 
 function Copyright() {
   return (
-    <Typography variant="body2" color="textSecondary" align="center">
+    <Typography variant="body1" color="textSecondary" align="center">
       {'Copyright © '}{new Date().getFullYear()}
       {'. '}
         White Panda Media Pvt. Ltd. <br />
@@ -57,6 +57,7 @@ const useStyles = makeStyles(theme => ({
   footer: {
     backgroundColor: theme.palette.background.paper,
     padding: theme.spacing(6),
+    paddingLeft: "91px",
   },
 }));
 
@@ -106,7 +107,6 @@ function Body() {
                       avatar={
                         <Avatar alt="Remy Sharp" src="https://i.ibb.co/PjnCNb2/placeholder.jpg" className={classes.bigAvatar} />
                       }
-
                       title="Blog / Article"
                       subheader="from ₹500"
                     />

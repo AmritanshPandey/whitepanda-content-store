@@ -38,8 +38,6 @@
 
 
 .MuiAvatar-root {
-  width: 35px !important;
-  height: 35px !important;
   font-size: 1rem !important;
 }
 
@@ -100,11 +98,7 @@
 }
 
 
-.MuiAvatar-root {
-  width: 60px !important; 
-  height: 60px !important;
-  font-size: 1rem !important;
-}
+
 
 .makeStyles-bigAvatar-153 {
   width: 60px;
@@ -112,7 +106,10 @@
   margin: 10px 15px 20px 0 !important;
 
 }
-
+.MuiContainer-root{
+  padding-left: 60px !important;
+  padding-right: 0 !important;
+}
 
 .MuiContainer-maxWidthMd {
     max-width: 80% !important;
@@ -125,7 +122,7 @@
 
 .MuiButton-outlinedPrimary:hover {
   border: 1px solid #3ebbb3 !important;
-  background-color: rgba(15, 158, 194, 0.08);
+  background-color: rgba(15, 158, 194, 0.08) !important;
 }
 
 .MuiButton-outlinedPrimary {
@@ -161,3 +158,11 @@
   line-height: 1.17;
   letter-spacing: 0.00735em;
 }
+
+.MuiTypography-body2 {
+  font-size: 1.3rem !important;
+  font-weight: 400;
+  line-height: 1.43;
+  letter-spacing: 0.01071em;
+}
+
